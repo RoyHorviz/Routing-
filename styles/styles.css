@@ -1,0 +1,178 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Navigation Menu Styles */
+nav {
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffeb3b;
+}
+
+/* Content Styles */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-header h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.page-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Book Cover Styles */
+.book-cover {
+  width: 420px;
+  height: 640px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.book-header {
+  padding: 10px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #666;
+}
+
+.book-header span {
+  font-weight: bold;
+  color: #000;
+}
+
+.book-author {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+  color: #000;
+}
+
+.book-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.yellow-section {
+  flex-grow: 1;
+  background-color: #ffeb3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.js-text {
+  font-size: 150px;
+  font-weight: bold;
+  color: #333;
+}
+
+.you-dont-know {
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  transform: rotate(-90deg);
+  top: 50%;
+  left: 20px;
+  transform-origin: left center;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  font-size: 25px;
+}
